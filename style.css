@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;    
+    font-family: 'Inter';
+}
+
+header{
+    background-image: url('./assets/images/header.png');
+    background-size: cover;      
+    height: 420px;
+}
+
+#menu{   
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#titulo {
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    padding-left: 170px;
+    padding-top: 0px;
+    color: white;
+    width: 530px;
+}
+h1{
+    font-weight: 400;
+}
+h4{
+    font-weight: 300;
+    line-height: 150%;
+}
+#headerMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: #EAECE5;
+}
+.navBar1 img{    
+    width: 30px;
+    text-decoration: none;  
+    margin-left: 120px;  
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.navBar1 a{   
+    font-family: 'Inter'; 
+    margin-left: 0px;
+    margin-right: 120px;
+    padding: 0px;
+    text-decoration: none; 
+    font-size: 10pt;   
+}
+#video{
+    margin-top: 45px;    
+    display: flex;
+    justify-content: center;     
+    height: 230px;       
+}
+    iframe{
+        margin-right: 30px;
+    }
+    h3{
+        font-family: 'Inter';
+        color: #247BA0;
+        margin-bottom: 15px;
+        font-size: 15pt;
+    }
+    p{
+        margin-top: 7px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 7pt;
+    }
+#secondLayer{
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 250px;
+    background-color: #247BA0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    }
+    #h3Layer2{
+        display: flex;
+        justify-content: center;
+        background-color: #247BA0;
+        height: 50px;   
+            
+    }
+    #h3Layer2 h3{
+        padding-top: 30px;
+        color: white;
+        font-weight: 500;
+    }
+    .retangulo{
+        margin-top: 70px;
+        width: 330px;
+        height: 40%;
+        background-color: white;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0px;
+    
+    }
+        .retangulo img{
+            margin-top: 22px;
+            height: 55px;
+            margin-bottom: 0px;
+            border-radius: 100%;
+            
+        }
+        .retangulo p{
+            margin-top: 22px;
+            margin-left: 15px;
+            margin-bottom: 5px;
+        }
+        #retangulo1{
+            margin-left: 600px;
+        }
+        #retangulo2{
+            margin-right: 600px;
+        }
+      
+        h8{
+            padding-top: 0px;
+            margin-top: 0px;
+            margin-left: 15px;
+            font-size: 8pt;
+            font-weight: 700;
+        }
+
+#layer3{
+    padding-top: 35px;
+    margin: 0px;
+    background-color: #EAECE5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 10pt;
+    font-weight: 500;
+}
+    button{
+        margin-top: 10px;
+        background-color: #247BA0;
+        border: none;
+        font-family:'Inter';
+        font-size: 7pt;
+        color:white;
+        height: 40px;
+        width: 200px;
+        border-radius: 8px;
+        
+    }
